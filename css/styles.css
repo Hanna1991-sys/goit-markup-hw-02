@@ -1,9 +1,13 @@
 body{
 font-family: Roboto, sans-serif;
+background-color: #FFFFFF;
+color: #434455;
 
 }
 :rood {
-    background-color: #FFFFFF;
+    --logo-font: Raleway, sans-serif;
+    --primary-color: #434455;
+    --color-paragraf: #2E2F42;
 }
 a {
      text-decoration: none;
@@ -18,10 +22,10 @@ a {
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
+    letter-spacing: 0.02em;
  }
  p {
     line-height: 1.5;
-    color: #434455;
  }
 /**
   |============================
@@ -34,14 +38,21 @@ a {
     line-height: 1.5;
     color: #2E2F42;   
 }
-
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #F4F4FD;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
 .logo-blue {
-    color: #2E2F42;
+    color: var(--color-paragraf);
 }
 
 .header-address { 
     line-height: 1.5;
-    color: #434455;
 }
 
 /**
@@ -58,6 +69,7 @@ a {
     line-height: 1.07;
     text-align: center;
     color: #FFFFFF;
+    letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -88,7 +100,7 @@ a {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--color-paragraf);
 }
 /**
   |============================
@@ -106,15 +118,6 @@ a {
 */
 .footer {
     background-color: #2E2F42;;
-}
-
-.logo {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    color: #F4F4FD;
-    text-transform: uppercase;
 }
 .logo-iris{
     color: #4D5AE5;
