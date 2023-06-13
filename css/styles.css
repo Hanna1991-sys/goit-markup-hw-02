@@ -1,7 +1,10 @@
-.body{
+body{
 font-family: Roboto, sans-serif;
-}
 
+}
+:rood {
+    background-color: #FFFFFF;
+}
 a {
      text-decoration: none;
  }
