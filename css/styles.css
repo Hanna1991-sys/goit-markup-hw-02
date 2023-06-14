@@ -109,19 +109,19 @@ a {
 
 .hero-button {
     background-color: var(--color-logo-blue);
-}
-.hero-but-text{
-    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-color);
     cursor: pointer;
 }
-.hero-button:hover,active {
+
+.hero-button:hover {
    background-color: #404bbf;
 }
-
+.hero-button:active {
+    background-color: #404bbf;
+}
 /**
   |============================
   | Styles first section
