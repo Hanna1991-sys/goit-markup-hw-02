@@ -46,7 +46,12 @@ a {
 .logo-black {
     color: var(--primary-header);
 }
-.header-nav {
+.nav-hom,
+.nav-por,
+.nav-st,
+.nav-por,
+.nav-con
+ {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
