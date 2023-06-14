@@ -1,30 +1,23 @@
 body{
 font-family: Roboto, sans-serif;
 background-color: #FFFFFF;
-color: #434455;
-
+color: var(--primary-text);
 }
 :rood {
     --logo-font: Raleway, sans-serif;
-    --primary-color: #434455;
-    --color-paragraf: #2E2F42;
+    --primary-text: #434455;
+    --primary-header: #2E2F42;
+    --color-logo: #4D5AE5;
 }
-a {
-     text-decoration: none;
- }
-
- ul, 
- li {
-    list-style: none;
- }
  h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    color: #2E2F42;
+    color: var(--primary-header);
     letter-spacing: 0.02em;
  }
  p {
+    color: var(--primary-text);
     line-height: 1.5;
  }
 /**
@@ -36,23 +29,25 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #2E2F42;   
+    color: var(--primary-black);   
 }
 .logo {
     font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    color: #F4F4FD;
     text-transform: uppercase;
     letter-spacing: 0.03em;
+    text-decoration: none;
+    list-style: none;
+    color: var(--color-logo);
 }
-.logo-blue {
-    color: var(--color-paragraf);
+.logo-black {
+    color: var(--primary-header);
 }
-
 .header-address { 
     line-height: 1.5;
+    font-style: normal;
 }
 
 /**
@@ -61,7 +56,7 @@ a {
   |============================
 */
 .hero {
- background-color: #2E2F42;
+ background-color: var(--primary-black);
 }
 .hero-title {
     font-weight: 700;
@@ -100,7 +95,7 @@ a {
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
-    color: var(--color-paragraf);
+    color: var(--primary-black);
 }
 /**
   |============================
@@ -117,7 +112,7 @@ a {
   |============================
 */
 .footer {
-    background-color: #2E2F42;;
+    background-color: var(--primary-black);
 }
 .logo-iris{
     color: #4D5AE5;
