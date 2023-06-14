@@ -67,19 +67,19 @@ a {
     font-style: normal;
 }
 
-.header-nav-hom:hover,active {
+.nav-hom:hover,active {
     color: #404bbf;    
 }
-.header-nav-por:hover,active {
+.nav-por:hover,active {
     color: #404bbf;
 }
-.header-nav-st:hover,active {
+.nav-st:hover,active {
     color: #404bbf;
 }
- .header-nav-por:hover,active {
+.nav-por:hover,active {
     color: #404bbf;
 }
- .header-nav-con:hover,active {
+.nav-con:hover,active {
     color: #404bbf;
 }
  .mailto:hover,active {
