@@ -7,6 +7,7 @@
     --primary-text: #434455;
     --primary-header: #2E2F42;
     --color-logo-blue: #4D5AE5;
+    --color-logo-wit: #F4F4FD;
 }
 /**
   |============================
@@ -108,10 +109,12 @@ a {
 }
 
 .hero-button {
+    font-family: var(--primary-font);
     background-color: var(--color-logo-blue);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--primary-color);
     cursor: pointer;
 }
@@ -119,7 +122,7 @@ a {
 .hero-button:hover {
    background-color: #404bbf;
 }
-.hero-button:active {
+.hero-button:focus {
     background-color: #404bbf;
 }
 /**
@@ -127,7 +130,18 @@ a {
   | Styles first section
   |============================
 */
-
+.header-h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-header);
+}
+.par-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 /**
   |============================
   | Styles second section
@@ -137,9 +151,10 @@ a {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    color: var(--primary-black);
+    color: var(--primary-header);
 }
 /**
   |============================
@@ -155,11 +170,16 @@ a {
   | Footer styles
   |============================
 */
-
-
+.footer {
+    background-color: var(--primary-header);
+}
+.logo-wit {
+    color: var(--color-logo-wit);
+}
 
 .footer-paragraph {
     font-size: 16px;
     line-height: 1.5;
-    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    color: var(--color-logo-wit);
 }
