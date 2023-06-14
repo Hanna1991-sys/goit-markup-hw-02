@@ -63,6 +63,9 @@ a {
 }
 
 .header-nav-hom:hover,active {
+    color: #404bbf;    
+}
+.header-nav-por:hover,active {
     color: #404bbf;
 }
 .header-nav-st:hover,active {
@@ -80,9 +83,7 @@ a {
  .tel:hover,active {
     color: #404bbf;
 }
-.header-nav-por:hover,active {
-    color: #404bbf;
-}
+
 
 /**
   |============================
