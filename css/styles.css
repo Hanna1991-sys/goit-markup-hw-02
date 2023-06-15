@@ -55,13 +55,11 @@ a {
     letter-spacing: 0.02em;
     color: var(--primary-header);
 }
-.header-nav:hover {
-    color: var(--color-nav);
-}
-
+.header-nav:hover,
 .header-nav:focus {
     color: var(--color-nav);
 }
+
 .header-address { 
     font-size: 16px;
     line-height: 1.5;
@@ -70,10 +68,9 @@ a {
     font-style: normal;
 }
 
-.header-address:hover{
-    color: var(--color-nav);
-}
-.header-address:focus{
+.header-address:hover,
+.header-address:focus
+{
     color: var(--color-nav);
 }
 
@@ -135,7 +132,6 @@ a {
   |============================
 */
 .second-third-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
