@@ -8,6 +8,7 @@
     --primary-header: #2E2F42;
     --color-logo-blue: #4D5AE5;
     --color-logo-wit: #F4F4FD;
+    --color-nav: #404bbf;
 }
 /**
   |============================
@@ -47,12 +48,7 @@ a {
 .logo-black {
     color: var(--primary-header);
 }
-.nav-hom,
-.nav-por,
-.nav-st,
-.nav-por,
-.nav-con
- {
+.header-nav {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -67,27 +63,53 @@ a {
     color: var(--primary-text);
     font-style: normal;
 }
+.nav-hom:hover{
+    color: var(--color-nav);
+} 
+.nav-por:hover{
+    color: var(--color-nav);
+}  
+.nav-st:hover{
+    color: var(--color-nav);
+}  
+.nav-por:hover{
+    color: var(--color-nav);
+}  
+.nav-con:hover{
+    color: var(--color-nav);
+}  
+.mailto:hover{
+    color: var(--color-nav);
+}  
+.tel:hover:hover{
+    color: var(--color-nav);
+} 
+.nav-hom:focus {
+    color: var(--color-nav);
+}
+ 
+.nav-por:focus {
+    color: var(--color-nav);
+}
 
-.nav-hom:hover,active {
-    color: #404bbf;    
+.nav-st:focus {
+    color: var(--color-nav);
 }
-.nav-por:hover,active {
-    color: #404bbf;
+ 
+.nav-por:focus {
+    color: var(--color-nav);
 }
-.nav-st:hover,active {
-    color: #404bbf;
+ 
+.nav-con:focus {
+    color: var(--color-nav);
 }
-.nav-por:hover,active {
-    color: #404bbf;
+ 
+.mailto:focus {
+    color: var(--color-nav);
 }
-.nav-con:hover,active {
-    color: #404bbf;
-}
- .mailto:hover,active {
-    color: #404bbf;
-}
- .tel:hover,active {
-    color: #404bbf;
+ 
+.tel:focus {
+    color: var(--color-nav);
 }
 
 
@@ -118,7 +140,12 @@ a {
     color: var(--primary-color);
     cursor: pointer;
 }
-
+.hero-button:hover{
+    background-color: var(--color-nav);
+}
+.hero-button:focus{
+    background-color: var(--color-nav);
+}
 
 
 /**
@@ -158,7 +185,7 @@ a {
   |============================
 */
 .third-sec{
-    background: #F4F4FD;
+    background-color: var(--primary-color);
 }
 
 /**
@@ -191,7 +218,8 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--color-logo-blue);
-    background-color: var(--color-logo-wit) ;
+    background-color: var(--color-logo-wit);
+    cursor: pointer;
 }
 .button-port:hover {
     background-color: #404BBF;
