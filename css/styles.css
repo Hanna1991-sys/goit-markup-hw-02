@@ -55,10 +55,10 @@ a {
     letter-spacing: 0.02em;
     color: var(--primary-header);
 }
-.header-nav:hover,
-.header-nav:focus,
-.header-address:hover,
-.header-address:focus {
+.nav:hover,
+.nav:focus,
+.contact:hover,
+.contact:focus {
     color: var(--color-nav);
 }
 
