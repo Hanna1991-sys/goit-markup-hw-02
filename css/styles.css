@@ -55,7 +55,13 @@ a {
     letter-spacing: 0.02em;
     color: var(--primary-header);
 }
+.header-nav:hover {
+    color: var(--color-nav);
+}
 
+.header-nav:focus {
+    color: var(--color-nav);
+}
 .header-address { 
     font-size: 16px;
     line-height: 1.5;
@@ -63,55 +69,13 @@ a {
     color: var(--primary-text);
     font-style: normal;
 }
-.nav-hom:hover{
-    color: var(--color-nav);
-} 
-.nav-por:hover{
-    color: var(--color-nav);
-}  
-.nav-st:hover{
-    color: var(--color-nav);
-}  
-.nav-por:hover{
-    color: var(--color-nav);
-}  
-.nav-con:hover{
-    color: var(--color-nav);
-}  
-.mailto:hover{
-    color: var(--color-nav);
-}  
-.tel:hover:hover{
-    color: var(--color-nav);
-} 
-.nav-hom:focus {
-    color: var(--color-nav);
-}
- 
-.nav-por:focus {
-    color: var(--color-nav);
-}
 
-.nav-st:focus {
+.header-address:hover{
     color: var(--color-nav);
 }
- 
-.nav-por:focus {
+.header-address:focus{
     color: var(--color-nav);
 }
- 
-.nav-con:focus {
-    color: var(--color-nav);
-}
- 
-.mailto:focus {
-    color: var(--color-nav);
-}
- 
-.tel:focus {
-    color: var(--color-nav);
-}
-
 
 /**
   |============================
@@ -185,7 +149,10 @@ a {
   |============================
 */
 .third-sec{
-    background-color: var(--primary-color);
+    background-color: var(--color-logo-wit);
+}
+.color-sec{
+    background-color:var(--primary-color);
 }
 
 /**
